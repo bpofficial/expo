@@ -46,7 +46,7 @@ NS_ASSUME_NONNULL_BEGIN
   update.updateId = updateId;
   update.commitTime = commitTime;
   update.runtimeVersion = runtimeVersion;
-  update.metadata = metadata;
+  update.manifest = metadata;
   update.status = status;
   update.keep = keep;
   return update;
